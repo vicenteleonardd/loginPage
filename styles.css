@@ -1,0 +1,121 @@
+#login{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #4130ae;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.caixa{
+    color: rgb(0, 0, 0);
+    margin-top: 80px;
+}
+
+.email input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4130ae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    
+  
+}
+
+
+.senha input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4130ae;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.entrar input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: aquamarine;
+    height: 30px;
+    width: 80px;
+    cursor: pointer
+}
+
+.nome input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4130ae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.caixa img{
+    width: 350px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.criar input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: aquamarine;
+    height: 30px;
+    width: 80px;
+    cursor: pointer
+
+    
+}
+
+.numero input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4130ae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+
+}
+.confirmeSenha input{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #4130ae;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+    
+}
+
+
+input::placeholder{
+    color: white;
+}
